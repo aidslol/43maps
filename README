@@ -1,0 +1,18 @@
+/****************************/
+/ Project name: 43maps       /
+/ Author: Philip Carter      /
+/ Date: 4/13/2012            /
+/                            /
+/****************************/
+
+The purpose of this project is to combine the mapping services and data from Google's Map API with the social todo list from 43places.com
+
+43places.com login info:
+--- arichtippler  //  dharma  ---
+
+This file will serve as a todo list and bug repo of sorts.
+
+The general interaction of the site will behave thusly;
+
+Upon page load the user is presented with a login prompt from 43places
+After login, the user is shown an embedded map provided by google with their 43places data overlaid.
