@@ -9,10 +9,24 @@ The purpose of this project is to combine the mapping services and data from Goo
 
 43places.com login info:
 --- arichtippler  //  dharma  ---
+API Key: 3566669@43TONN196Ew
 
 This file will serve as a todo list and bug repo of sorts.
 
-The general interaction of the site will behave thusly;
+---- HIJAX Method outline ----
 
-Upon page load the user is presented with a login prompt from 43places
-After login, the user is shown an embedded map provided by google with their 43places data overlaid.
+Page loads -> user presented with login prompt for 43places
+
+Welcome message + "Where would you like to go?"
+
+On submit -> page refreshes with snapshot of Google Map data around zoom level 12-14.
+
+Data from 43places overlaid: title, photo, # want to go theres, # been theres, synopsis.
+
+Progressive enhancements:
+
+replace search refreshes with AJAX
+
+replace Google Static Maps API with Maps Javascript API
+
+------------------------------
