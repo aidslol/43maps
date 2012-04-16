@@ -1,0 +1,35 @@
+
+h1 {
+	font-family:Verdana, Geneva, sans-serif;
+	color:#7B8C60;
+	}
+
+h2 {}
+
+p {}
+
+body {
+	background-color:#68C9CC;	
+}
+
+#wrapper {
+	height:auto;
+	width:960px;
+	margin:15px auto 0px auto;
+	background-color:#D3FFF1;
+	}
+
+#branding {}
+
+#searchBox {
+	height:auto;
+	width:400px;
+	margin:5px auto 0 auto;
+}
+
+#result {
+	height:680px;
+	width:620px;
+	margin:10px auto 0px auto;
+	}
+
